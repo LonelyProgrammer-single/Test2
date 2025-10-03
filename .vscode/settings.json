@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "limits": "cpp"
-    }
+        "limits": "cpp",
+        "cmath": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/lsmsmx/TheBeginning/L2"
 }

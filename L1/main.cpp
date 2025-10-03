@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-// в ар. 6
+// вар. 6
 // Формула Герона
 int main(){
     int a = 1; 
@@ -17,8 +17,8 @@ int main(){
     unsigned short max_value_unsigned_short = std::numeric_limits<unsigned short>::max();
     double min_value_double = std::numeric_limits<double>::lowest(); // поскольку принимает отрицательные значения необходимо использовать double с более точными значениями
     double max_value_double = std::numeric_limits<double>::max();
-    double min_value_int = std::numeric_limits<int>::lowest();
-    double max_value_int = std::numeric_limits<int>::max();
+    int min_value_int = std::numeric_limits<int>::lowest();
+    int max_value_int = std::numeric_limits<int>::max();
     std::cout << "Площадь треугольника: "<< s << ". Тип данных double" << std::endl;
     std::cout << "Тип int: " << bits_in_int  << "  бит. Min int: " << min_value_int << " Max int: " << max_value_int << std::endl;
     std::cout << "Тип double: " << bits_in_double << " бит. Min double: " << min_value_double << " Max double: " << max_value_double << std::endl;
