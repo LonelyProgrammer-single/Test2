@@ -18,14 +18,13 @@ int main(){
    bit_i = A & (1<<i); // Сдвиг влево на i бит
    if (bit_i==0) {
       A = A*A;
-      A = A & ~(1<<i); // Реверес бита i 
+      A = A & ~(1<<i); // Реверс бита i 
       std::cout << "Исходное: " << A_original << " = " << std::bitset<8>(A_original) << std::endl; // Представление в двоичной системе с ограничением в первые 8 бит по условию
       std::cout << "Результат: " << A << " = " << std::bitset<8>(A) << std::endl;
    }
    else {
       int alt_result = 125 & 0b10101010; // логическое И, замена четных битов на ноль
       std::cout << "Результат работы над числом 125: " << alt_result << " = " << std::bitset<8>(alt_result) << std::endl;
-   }
-
+   }   return 0;
 }
 
